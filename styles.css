@@ -168,7 +168,16 @@ form button[type="submit"]:hover,
   justify-content: center;
 }
 
+/* Adding scrollbar to recipe popup */
+.recipe-details::-webkit-scrollbar{
+  width: 10px;
 
+}
+
+.recipe-details::-webkit-scrollbar-thumb{
+  background-color: #b5b5ba;
+  border-radius: 16px;
+}
 
 
 /* Responsive Code */
